@@ -1,0 +1,22 @@
+:root {
+  --Abel: Abel, cursive;
+  --Anton: Anton, cursive;
+  --Josefin: Josefin, cursive;
+}
+
+* {
+  font-family: var(--Josefin);
+}
+.article {
+  background-color: white;
+  width: 99%;
+  margin-left: 0.5rem;
+}
+
+.art1-img {
+  margin-top: 1rem;
+  margin-left: 4rem;
+  border-radius: 0.2rem;
+  width: 90%;
+  height: 50vh;
+}
