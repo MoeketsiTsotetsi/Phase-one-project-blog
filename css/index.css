@@ -1,0 +1,52 @@
+@import url("./fonts.css");
+:root {
+  --Abel: Abel, cursive;
+  --Anton: Anton, cursive;
+  --Josefin: Josefin, cursive;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/merc-amg.jpg");
+}
+
+.logo {
+  width: 5%;
+  height: 5%;
+  margin-right: 25rem;
+  background-color: transparent;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+
+  padding: 15px;
+}
+
+.nav .social {
+  padding: 1.4rem 0;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+  margin-right: 15rem;
+}
+
+.nav-ul li a {
+  display: inline-block;
+  color: blue;
+  font-family: var(--Josefin);
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.nav-ul li a:hover {
+  background-color: red;
+  border-radius: 0.9rem;
+}
